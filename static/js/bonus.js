@@ -142,11 +142,57 @@ function getData(id) {
 	});
 }
 
+//// test area for gauge plot
+/// create function for data plotting - not working
+function getGauge(id) {
+    d3.json("data/samples.json").then((sampleData) => {
+    //console.log(`sampleData: ${sampleData}`);
+    
+    // collect data for gauge
+    var washfreq = sampleData.metadata.filter(d1 => d1.wfreq);
+    //console.log(`wfreq: ${washfreq}`);
+
+      // GUAGE CHART
+    var trace3 = [
+        {
+          domain: { x: [0, 1], y: [0, 1] },
+          value: parseFload(washfreq),
+          title: { text: `Weekly Washing Frequency` },
+          type: "indicator",
+          mode: "gauge+number",
+          
+          gauge: {
+            axis: { range: [null, 9] },
+            steps: [
+              { range: [0, 2], color: "red" },
+              { range: [2, 4], color: "orange" },
+              { range: [4, 6], color: "yellow" },
+              { range: [6, 8], color: "lime" },
+              { range: [8, 9], color: "green" },
+            ]} 
+        }
+            ];
+      
+      var layout3 = { width: 700, height: 600, margin: { t: 20, b: 40, l: 100, r: 100 } 
+    };
+
+    //render the plot to the div tag with id "gauge"
+    Plotly.newPlot("gauge", trace3, layout3);  
+
+    });
+}
+
+
+
+
+
+
 // create function for change event
 function optionChanged(id) {
     //update and build new plots with new data selected
     getPlots(id);
     getData(id);
+    getGauge(id);
 }
 
 /// create the function for the initial data rendering
@@ -163,6 +209,7 @@ function init() {
     // call the functions to display the data and the plots to the page
     getPlots(ImportedData.names[0]);
     getData(ImportedData.names[0]);
+    getGauge(ImportedData.names[0]);
     });
 }
 
