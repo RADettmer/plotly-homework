@@ -14,9 +14,9 @@ function getPlots(id) {
     var sample_values = sdata.sample_values.slice(0,10).reverse();
     //console.log(`sample_values: ${sample_values}`);
     var OTU_top = (sdata.otu_ids.slice(0,10)).reverse();
-    //console.log(`OTU_top: ${OTU_top}`);
-    var OTU_id = OTU_top.map(data => "OTU" + data);
-    //console.log(`OTU_id: ${OTU_id}`);
+    console.log(`OTU_top: ${OTU_top}`);
+    var OTU_id = OTU_top.map(data => "OTU " + data);
+    console.log(`OTU_id: ${OTU_id}`);
     var labels = sdata.otu_labels.slice(0,10);
     //console.log(`labels: ${labels}`);
 
