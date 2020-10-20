@@ -13,6 +13,10 @@ OTU is short for operational taxonomic units, a  small handful of microbial spec
 
 Files included are as follows.
 
+DATA
+
+A copy of the raw data in json format.
+
 IMAGES:
 
 Bar plot of name 956 - top ten OTUs.
@@ -26,6 +30,7 @@ Bellybutton Biodiversity name 1584
 Bellybutton Biodiversity name 940 (also the home page)
 
 Bellybutton Biodiversity name 956
+
 
 THOUGHTS:
 
