@@ -1,8 +1,8 @@
-# plotly-homework
+# Plotly-Homework - Belly Button Biodiversity
 
-BELLY BUTTON BIODIVERSITY
+This homework/project creates a dashboard using Plotly, D3.js and JavaScript.
 
-Link to project: https://radettmer.github.io/plotly-homework/
+Here is a link to the dashboard: https://radettmer.github.io/plotly-homework/
 
 In this assignment, an interactive dashboard was created to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.  
 
