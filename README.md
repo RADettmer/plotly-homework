@@ -10,6 +10,8 @@ There doesn't seem to be an information in this data set indicating wether there
 
 OTU is short for operational taxonomic units, a  small handful of microbial species that lives in navels.
 
+Data source was . . . . (fill in here)
+
 
 Files included are as follows.
 
@@ -25,7 +27,7 @@ Gauge of name 956 - washing frequency
 
 EXAMPLES OF THREE PAGES.
 
-Bellybutton Biodiversity name 1584
+Bellybutton Biodiversity name 1548
 
 Bellybutton Biodiversity name 940 (also the home page)
 
