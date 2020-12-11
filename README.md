@@ -1,4 +1,4 @@
-# Belly Button Biodiversity - using Plotly.js library
+# <div align="center">**Belly Button Biodiversity**<div>
 
 ## This homework/project creates a dashboard using Plotly, D3.js and JavaScript.
 
@@ -29,3 +29,5 @@ Bellybutton Biodiversity name 940 (also the home page)
 The most difficult but rewarding was getting the gauge to work.  I think I spent the most time on this fiddling with the color scheme.
 If you notice, the delta in the gauge changes to up and green once the subject, like name 956 does, once the washing frequency goes above 5.
 </p>
+
+[Bar plot of name 956 top ten OTUs (/images)](/images/bar plot of name 956.png)
