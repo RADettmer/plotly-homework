@@ -12,11 +12,11 @@ Data source was . . . . (fill in here)
 
 ## Relevant Files:
 ### Data:
-[Raw data in json format (/data)](/samples.json)
+[Raw data in json format (/data)](/data)
 
 ### Images:
-1. [Bar plot of name 956 top ten OTUs (/images)](/bar plot of name 956.png)
-2. [Gauge of name 956 washing frequency (/images)](/gauge of name 956.png)
+[Bar plot of name 956 top ten OTUs (/images)](/images/bar plot of name 956.png)
+[Gauge of name 956 washing frequency (/images)](/images/gauge of name 956.png)
 
 ### Examples of Three Pages:
 1. [Bellybutton Biodiversity name 1548 (/images)](/Bellbutton Biodiversity 1548.pdf)
