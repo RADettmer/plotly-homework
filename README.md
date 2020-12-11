@@ -1,6 +1,6 @@
 # <div align="center">**Belly Button Biodiversity**<div>
 
-## This homework/project creates a dashboard using Plotly, D3.js and JavaScript.
+## This project creates a dashboard using Plotly, D3.js and JavaScript.
 
 Here is a link to the dashboard: https://radettmer.github.io/plotly-homework/
 
@@ -15,19 +15,16 @@ Data source was . . . . (fill in here)
 [Raw data in json format (/data)](/data)
 
 ### Images:
-[Bar plot of name 956 top ten OTUs (/images)](/images/bar plot of name 956.png)
-[Gauge of name 956 washing frequency (/images)](/images/gauge of name 956.png)
+1. [Bar plot of name 956 top ten OTUs (/images)](/images)
+2. [Gauge of name 956 washing frequency (/images)](/images)
 
 ### Examples of Three Pages:
-1. [Bellybutton Biodiversity name 1548 (/images)](/Bellbutton Biodiversity 1548.pdf)
-2. [Bellybutton Biodiversity name 940 (/images)](/Bellybutton Biodiversity name 940.pdf)
-3. [Bellybutton Biodiversity name 956 (/images)](/Bellybutton Biodiversity name 956.pdf)
-Bellybutton Biodiversity name 940 (also the home page)
+1. [Bellybutton Biodiversity name 1548 (/images)](/images)
+2. [Bellybutton Biodiversity name 940 (/images)](/images)
+3. [Bellybutton Biodiversity name 956 (/images)](/images)
 
 ## Thoughts:
 <p>This was a challenging but cool assignment.  It was difficult thinking through the process but fun figuring out the colors and layout.
 The most difficult but rewarding was getting the gauge to work.  I think I spent the most time on this fiddling with the color scheme.
 If you notice, the delta in the gauge changes to up and green once the subject, like name 956 does, once the washing frequency goes above 5.
 </p>
-
-[Bar plot of name 956 top ten OTUs (/images)](/images/bar plot of name 956.png)
