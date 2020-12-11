@@ -1,45 +1,31 @@
-# Plotly-Homework - Belly Button Biodiversity
+# Belly Button Biodiversity - using Plotly.js library
 
-This homework/project creates a dashboard using Plotly, D3.js and JavaScript.
+## This homework/project creates a dashboard using Plotly, D3.js and JavaScript.
 
 Here is a link to the dashboard: https://radettmer.github.io/plotly-homework/
 
-In this assignment, an interactive dashboard was created to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.  
-
-There doesn't seem to be an information in this data set indicating wether there is any difference between an innie or an outie.
-
+<P>In this assignment, an interactive dashboard was created to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.  
 OTU is short for operational taxonomic units, a  small handful of microbial species that lives in navels.
-
+There isn't any information in this data set indicating wether there is any difference between an innie or an outie.
 Data source was . . . . (fill in here)
+</p>
 
+## Relevant Files:
+### Data:
+[Raw data in json format (/data)](/samples.json)
 
-Files included are as follows.
+### Images:
+1. [Bar plot of name 956 top ten OTUs (/images)](/bar plot of name 956.png)
+2. [Gauge of name 956 washing frequency (/images)](/gauge of name 956.png)
 
-DATA
-
-A copy of the raw data in json format.
-
-IMAGES:
-
-Bar plot of name 956 - top ten OTUs.
-
-Gauge of name 956 - washing frequency
-
-EXAMPLES OF THREE PAGES.
-
-Bellybutton Biodiversity name 1548
-
+### Examples of Three Pages:
+1. [Bellybutton Biodiversity name 1548 (/images)](/Bellbutton Biodiversity 1548.pdf)
+2. [Bellybutton Biodiversity name 940 (/images)](/Bellybutton Biodiversity name 940.pdf)
+3. [Bellybutton Biodiversity name 956 (/images)](/Bellybutton Biodiversity name 956.pdf)
 Bellybutton Biodiversity name 940 (also the home page)
 
-Bellybutton Biodiversity name 956
-
-
-THOUGHTS:
-
-This was a challenging but cool assignment.  It was difficult thinking through the process but fun figuring out the colors and layout.
-
+## Thoughts:
+<p>This was a challenging but cool assignment.  It was difficult thinking through the process but fun figuring out the colors and layout.
 The most difficult but rewarding was getting the gauge to work.  I think I spent the most time on this fiddling with the color scheme.
-
 If you notice, the delta in the gauge changes to up and green once the subject, like name 956 does, once the washing frequency goes above 5.
-
-
+</p>
